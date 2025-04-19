@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen con Texto</title>
+    <style>
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 500px; /* Ajusta según el tamaño de tu imagen */
+        }
+        .imagen {
+            width: 100%;
+            height: auto;
+        }
+        .texto {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white; /* Puedes cambiar el color */
+            font-size: 2rem; /* Ajusta el tamaño */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="Clay_Lucas.png" class="imagen" alt="Imagen de Clay Lucas">
+        <div class="texto">Hello</div>
+    </div>
+
+</body>
+</html>
